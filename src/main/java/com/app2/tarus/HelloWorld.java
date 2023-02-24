@@ -7,6 +7,6 @@ public class HelloWorld
 @RequestMapping("/hello_request")
 public String hello()
 {
-return "Remote Server: Hello";
+return "Response from the App2 : Hello";
 }
 }
